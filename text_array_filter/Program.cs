@@ -5,7 +5,7 @@
 // пользоваться коллекциями, лучше обойтись исключительно массивами.
 
 
-string[] array = {"Hello", "2", "world", ":-)"};
+string[] array = {"Russia", "Denmark", "Kazan"};
 string[] newArray = textArrayFilter(array);
 
 string[] textArrayFilter(string[] array){
@@ -29,4 +29,4 @@ string[] textArrayFilter(string[] array){
     return newArray;
 }
 
-Console.Write(String.Join(" ",newArray));
+Console.Write("[" + String.Join(", ",newArray) + "]");
